@@ -46,11 +46,11 @@ function task(i) {
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("Selamat bergabung di server ini")
+	bot.chat("SERVER AKTIF")
 	first = false;
 	}
 	else{
-		bot.chat("Diperbarui oleh vanevgt")
+		bot.chat("Sukses")
 		first = true;
 	}
   }, 3600000 * i); 
